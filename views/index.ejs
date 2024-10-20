@@ -1,0 +1,59 @@
+
+  <div class="container mt-5">
+    <form method="post" >
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <div class="">
+        <input type="text" id="aktivitas" placeholder="aktivitas" class=" form-control" name="aktivitas">
+      </div>
+      <div class="d-flex">
+        <div class="d-flex col-6 mt-2">
+          <label for="start" class="form-label m-1">Start</label>
+          <input type="date" class="form-control" id="start" name="startDate">
+        </div>
+        <div class="d-flex col-6 mt-2">
+          <label for="end" class="form-label m-1">End</label>
+          <input type="date" class="form-control" id="end" name="endDate">
+        </div>
+      </div>
+      <div class="mt-2">
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </div>
+    </form>
+    
+    <main class="mt-5 border rounded-3 p-3">
+      <% if(todos.length > 0) { %>
+      
+      <form method="post" action="/delete">
+        <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <div class="d-flex flex-row-reverse mb-1">
+        <button type="submit" id="delete" class="btn btn-danger"
+          <% if(!check) { %>
+            disabled
+          <% } %>
+          >Delete</button>
+      </div>
+      
+      <% todos.forEach((todo) => { %>
+      <section>
+        <div class="border d-flex justify-content-between align-items-center p-3 rounded-3 bg-secondary">
+          <div>      
+            <input type="checkbox" id="checkbox" class="form-check-input m-2" name="ids" value="<%= todo.id %>">
+            <a href="/update/<%= todo.id %>" class="btn btn-outline-warning p-1"><small>Update</small></a>
+          </div>
+          <span><%= todo.aktivitas %></span>
+          
+          <span><small><%= formatDate(todo.start_date) %>/<%= formatDate(todo.end_date) %></small></span>
+          
+        </div>
+      </section>
+      <% }) %>
+      <% } else { %>
+        <div class="text-center">
+          <h1>Tidak ada data</h1>
+        </div>
+      <% } %>
+      </form>
+    </main>
+  </div>
+  
+  <script src="/js/app.js"></script>

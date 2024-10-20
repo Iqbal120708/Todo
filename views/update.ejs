@@ -1,0 +1,22 @@
+<div class="container mt-5 d-flex justify-content-center">
+  <div class="col-10 rounded-3 p-3 shadow">
+    <form method="post">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+        <div class='form-group'>
+    <label class="form-label" for="aktivitas">Aktivitas</label>
+    <input type="text" id="aktivitas" class="form-control" name="aktivitas" value='<%= todo.aktivitas %>'>
+  </div>
+  <div class='form-group'>
+    <label class="form-label" for="startDate">Start date</label>
+    <input type="date" id="startDate" class="form-control" name="startDate" value='<%= formatDate(todo.start_date) %>'>
+  </div>
+  <div class='form-group'>
+    <label class="form-label" for="endDate">End date</label>
+    <input type="date" id="endDate" class="form-control" name="endDate" value='<%= formatDate(todo.end_date) %>'>
+  </div>
+  <div class="text-center mt-2">
+    <button class="btn btn-primary">Update</button>
+  </div>
+    </form>
+  </div>
+</div>
