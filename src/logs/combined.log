@@ -1,0 +1,15 @@
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-21T17:10:13.299Z","url":"/"}
+{"body":{"_csrf":"FU6PFSOq-NyWUYj0ef5T-jZyvS2mCdzkdHHs","aktivitas":"Test log","endDate":"2024-10-22","startDate":"2024-10-22"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-10-21T17:11:12.734Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-21T17:11:12.811Z","url":"/"}
+{"body":{"_csrf":"aAvRd1Tc-PYCqzVtOmKJE88s2YMxSePYKFis","ids":["16","17"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-10-21T17:11:35.903Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-21T17:11:35.955Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-10-21T17:11:39.193Z","url":"/update/18"}
+{"body":{"_csrf":"5O33fPAH-zknyFktyEAZJ5pzyjGz2fQT9dVM","aktivitas":"Test log2","endDate":"2024-10-22","startDate":"2024-10-22"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-10-21T17:11:43.056Z","url":"/update/18"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-21T17:11:43.119Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-22T05:49:10.531Z","url":"/"}
+{"level":"info","message":{"method":"GET","url":"/favicon.ico"},"timestamp":"2024-10-22T05:49:11.259Z"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-10-22T05:49:15.590Z","url":"/update/18"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-22T05:54:50.977Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-22T09:11:19.361Z","url":"/"}
+{"level":"info","message":{"method":"GET","url":"/favicon.ico"},"timestamp":"2024-10-22T09:11:20.407Z"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-10-22T09:13:43.528Z","url":"/"}
