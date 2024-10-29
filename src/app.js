@@ -48,6 +48,4 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('', todoRoutes);
 
-app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port http://127.0.0.1/${port}`);
-});
+module.exports = app
