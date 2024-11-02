@@ -16,7 +16,7 @@
     <form method="post" >
       <input type="hidden" name="_csrf" value="<%= csrf %>">
       <div class="">
-        <input type="text" id="aktivitas" placeholder="aktivitas" class=" form-control" name="aktivitas">
+        <input type="text" id="tasks" placeholder="tasks" class=" form-control" name="tasks">
       </div>
       <div class="d-flex">
         <div class="d-flex col-6 mt-2">
@@ -53,7 +53,7 @@
             <input type="checkbox" id="checkbox" class="form-check-input m-2" name="ids" value="<%= todo.id %>">
             <a href="/update/<%= todo.id %>" class="btn btn-outline-warning p-1"><small>Update</small></a>
           </div>
-          <span><%= todo.aktivitas %></span>
+          <span><%= todo.tasks %></span>
           
           <span><small><%= todo.startDate %>/<%= todo.endDate %></small></span>
           
@@ -62,7 +62,7 @@
       <% }) %>
       <% } else { %>
         <div class="text-center">
-          <h1>Tidak ada data</h1>
+          <h1>Tidak ada tasks</h1>
         </div>
       <% } %>
       </form>

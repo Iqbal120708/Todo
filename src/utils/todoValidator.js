@@ -5,15 +5,18 @@ const logger = require('./logger')
 class TodoValidator {
   field() {
     return [
-      body('aktivitas')
+      body('tasks')
         .notEmpty()
-        .withMessage('aktivitas is required')
+        .withMessage('tasks is required')
         .escape(),
       body('startDate')
         .notEmpty()
         .withMessage('startDate is required')
         .escape(),
-      body('endDate').notEmpty().withMessage('endDate is required').escape()
+      body('endDate')
+        .notEmpty()
+        .withMessage('endDate is required')
+        .escape()
     ];
   }
   fieldDelete() {

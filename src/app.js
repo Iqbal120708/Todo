@@ -1,34 +1,39 @@
 require('dotenv').config();
 
 const express = require('express');
-const expressLayouts = require('express-ejs-layouts');
-const cookieParser = require('cookie-parser');
-const helmet = require('helmet');
-const session = require('express-session');
-const flash = require('connect-flash');
+const app = express();
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('./src/public'));
 
-const helmetConfig = require('./config/helmetConfig')
-const todoRoutes = require('./routes/todoRoutes');
 const todoControllers = require('./controllers/todoController');
-const sequelize = require('./db/db')
+
 const logger = require('./utils/logger')
 
-const app = express();
-const port = 3000;
+const expressLayouts = require('express-ejs-layouts');
+app.set('view engine', 'ejs');
+app.set('views', './src/views');
+app.use(expressLayouts)
+app.set('layout', 'base')
 
+const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
+const helmet = require('helmet');
 app.use(helmet());
+
+const helmetConfig = require('./config/helmetConfig')
 app.use(helmetConfig());
 
-app.use(flash());
-
+const session = require('express-session');
 app.use(session({
-  secret: process.env.SECRET_KEY, // Ganti dengan kunci rahasia Anda
+  secret: process.env.SECRET_KEY,
   resave: false,
   saveUninitialized: true,
+  store: new session.MemoryStore()
 }));
 
+const flash = require('connect-flash');
+app.use(flash());
 app.use((req, res, next) => {
   res.locals.success_msg = req.flash('success_msg');
   res.locals.error_msg = req.flash('error_msg');
@@ -36,16 +41,15 @@ app.use((req, res, next) => {
   next();
 });
 
-app.set('view engine', 'ejs');
-app.set('views', './src/views');
+const csrf = require('csurf');
+if(process.env.NODE_ENV !== 'test') {
+  csrfProtection = csrf({ cookie: true });
+  app.use(csrfProtection)
+}
 
-app.use(express.static('./src/public'));
-
-app.use(expressLayouts)
-app.set('layout', 'base')
-
-app.use(express.urlencoded({ extended: true }));
-
+const todoRoutes = require('./routes/todoRoutes');
 app.use('', todoRoutes);
+
+const port = 3000;
 
 module.exports = app

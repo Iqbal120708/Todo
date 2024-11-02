@@ -1,6 +1,6 @@
 const TodoValidator = require('../utils/todoValidator');
 const formatDate = require('../utils/formatDate');
-const Todo = require('../db/models')
+const {Todo} = require('../db/models')
 const logger = require('../utils/logger')
 
 const { Op } = require('sequelize');
@@ -11,13 +11,13 @@ class Index {
   async get(req, res) {
     let check = false;
     try {
-      let todos = await Todo.findAll()
+      let todos = await Todo.findAll();
       logger.info('Ambil data todo',{ method: req.method, url: req.url })
       res.render('index', {
         title: 'Todo',
         check,
         todos,
-        csrf: req.csrfToken()
+        csrf: req.csrfToken ? req.csrfToken() : null
       });
     } catch (err) {
       logger.error('Kesalahan mengambil todo', {
@@ -38,8 +38,8 @@ class Index {
        return res.redirect(req.url)
     }
     try {
-      let { aktivitas, startDate, endDate } = req.body;
-      await Todo.create({ aktivitas, startDate, endDate })
+      let { tasks, startDate, endDate } = req.body;
+      await Todo.create({ tasks, startDate, endDate })
       req.flash('success_msg', 'Todo berhasil ditambahkan');
       logger.info('Todo berhasil ditambahkan', {
         method: req.method,
@@ -76,7 +76,7 @@ class Update {
         res.render('update', {
           title: 'Update',
           todo,
-          csrf: req.csrfToken()
+          csrf: req.csrfToken ? req.csrfToken() : null
         });
       } else {
         logger.warning('Todo tidak ditemukan',{ method: req.method, url: req.url })
@@ -106,8 +106,8 @@ class Update {
       if (!todo) {
         return res.status(404).send('Todo not found');
       }
-      let { aktivitas, startDate, endDate } = req.body;
-      await todo.update({ aktivitas, startDate, endDate })
+      let { tasks, startDate, endDate } = req.body;
+      await todo.update({ tasks, startDate, endDate })
       req.flash('success_msg', 'Todo berhasil diperbaharui');
       logger.info('Todo berhasil diperbaharui', {
         method: req.method,

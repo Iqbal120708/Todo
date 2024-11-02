@@ -1,5 +1,4 @@
 const express = require('express');
-const csrfProtection = require('csurf')({ cookie: true });
 const { Index, Update, Delete } = require('../controllers/todoController');
 const TodoValidator = require('../utils/todoValidator')
 
@@ -10,10 +9,10 @@ const index = new Index()
 const update = new Update()
 const del = new Delete()
 
-router.get('/', csrfProtection, index.get);
-router.post('/', csrfProtection, validator.field(), index.post);
-router.get('/update/:id', csrfProtection, validator.params(), update.get);
-router.post('/update/:id', csrfProtection, validator.all(),update.post);
-router.post('/delete', csrfProtection, validator.fieldDelete(), del.post);
+router.get('/', index.get);
+router.post('/', validator.field(), index.post);
+router.get('/update/:id', validator.params(), update.get);
+router.post('/update/:id', validator.all(),update.post);
+router.post('/delete', validator.fieldDelete(), del.post);
 
 module.exports = router;
