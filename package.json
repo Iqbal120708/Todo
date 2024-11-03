@@ -33,7 +33,7 @@
     "db:drop:test": "npx sequelize-cli db:drop --env test",
     "db:migrate:test": "npx sequelize-cli db:migrate --env test",
     "test": "npm run db:create:test && npm run db:migrate:test && jest || true && npm run db:drop:test",
-    "start": "node ./src/app.js",
+    "start": "node ./src/server.js",
     "dev": "nodemon ./src/server.js"
   },
   "keywords": [
