@@ -1,5 +1,4 @@
 const TodoValidator = require('../utils/todoValidator');
-const formatDate = require('../utils/formatDate');
 const {Todo} = require('../db/models')
 const logger = require('../utils/logger')
 
