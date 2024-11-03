@@ -79,8 +79,8 @@ class Update {
           csrf: req.csrfToken ? req.csrfToken() : null
         });
       } else {
-        logger.warning('Todo tidak ditemukan',{ method: req.method, url: req.url })
-        res.status(404).send('Todo not found');
+        logger.warn('Task not found',{ method: req.method, url: req.url })
+        res.status(404).send('Task not found');
       }
     } catch (err) {
       logger.error('Kesalahan memperbaharui todo', {
@@ -104,7 +104,8 @@ class Update {
     try {
       let todo = await Todo.findByPk(id)
       if (!todo) {
-        return res.status(404).send('Todo not found');
+        logger.warn('Task not found',{ method: req.method, url: req.url })
+        return res.status(404).send('Task not found');
       }
       let { tasks, startDate, endDate } = req.body;
       await todo.update({ tasks, startDate, endDate })
@@ -150,9 +151,9 @@ class Delete {
         }
       });
       if (deletedCount === 0) {
-        logger.warning('Todo tidak ditemukan',{ method: req.method, url: req.url })
+        logger.warn('Task tidak ditemukan',{ method: req.method, url: req.url })
         // Jika tidak ada baris yang dihapus
-        return res.status(404).json({ message: 'Tidak ada Todo yang ditemukan untuk dihapus' });
+        return res.status(404).json({ message: 'Tidak ada task yang ditemukan untuk dihapus' });
       }
     } catch (err) {
       logger.error('Kesalahan menghapus todo', {

@@ -1,10 +1,23 @@
 <div class="container mt-5 d-flex justify-content-center">
   <div class="col-10 rounded-3 p-3 shadow">
+    <% if (success_msg.length > 0) { %>
+    <div class="alert alert-success"><%= success_msg %></div>
+    <% } %>
+    <% if (error_msg.length > 0) { %>
+    <div class="alert alert-danger"><%= error_msg %></div>
+    <% } %>
+    <% if (fields_error.length > 0) { %>
+      <ul class="text-danger">
+        <% fields_error.forEach(function(error) { %>
+          <li><%= error.msg %></li>
+        <% }); %>
+      </ul>
+    <% } %>
     <form method="post">
       <input type="hidden" name="_csrf" value="<%= csrf %>">
         <div class='form-group'>
-    <label class="form-label" for="aktivitas">Aktivitas</label>
-    <input type="text" id="aktivitas" class="form-control" name="aktivitas" value='<%= todo.aktivitas %>'>
+    <label class="form-label" for="tasks">tasks</label>
+    <input type="text" id="tasks" class="form-control" name="tasks" value='<%= todo.tasks %>'>
   </div>
   <div class='form-group'>
     <label class="form-label" for="startDate">Start date</label>

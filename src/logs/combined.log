@@ -175,3 +175,572 @@
 {"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T14:53:27.734Z","url":"/"}
 {"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T14:53:27.788Z","url":"/"}
 {"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T14:53:27.894Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T15:06:26.464Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:06:26.767Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:06:26.848Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:06:27.038Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:06:27.143Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:06:27.247Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:06:27.300Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:06:27.400Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T15:08:32.984Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:08:33.372Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:08:33.467Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:08:33.674Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:08:33.750Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:08:33.858Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:08:33.911Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:08:34.013Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T15:13:42.386Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:13:42.660Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:13:42.731Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:13:42.887Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:13:42.953Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:13:43.043Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:13:43.088Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"error startDate &gt; endDate"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T15:13:43.203Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:13:43.256Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:13:43.388Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T15:16:43.978Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:16:44.282Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:16:44.507Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:16:44.565Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:16:44.754Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:16:44.814Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:16:44.907Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:16:44.948Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T15:16:45.039Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:16:45.094Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T15:16:45.186Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T19:02:14.706Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:02:14.987Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:02:15.271Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:02:15.342Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:02:15.527Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:02:15.585Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:02:15.735Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:02:15.803Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:02:15.955Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:02:16.045Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:02:16.200Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-02T19:02:16.409Z","url":"/update/1"}
+{"error":{"msg":"logger.warning is not a function","stack":"TypeError: logger.warning is not a function\n    at warning (/data/data/com.termux/files/home/expressProjects/src/controllers/todoController.js:82:16)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"},"level":"error","message":"Kesalahan memperbaharui todo","method":"GET","timestamp":"2024-11-02T19:02:16.484Z","url":"/update/1"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T19:06:22.178Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:06:22.397Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:06:22.650Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:06:22.709Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:06:22.885Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:06:22.940Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:06:23.024Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:06:23.068Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:06:23.171Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:06:23.234Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:06:23.328Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-02T19:06:23.467Z","url":"/update/1"}
+{"level":"warn","message":"Todo tidak ditemukan","method":"GET","timestamp":"2024-11-02T19:06:23.469Z","url":"/update/1"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T19:09:58.611Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:09:58.938Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:09:59.202Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:09:59.278Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:09:59.476Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:09:59.541Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:09:59.644Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:09:59.701Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:09:59.816Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:09:59.878Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:09:59.989Z","url":"/"}
+{"body":{},"fields_error":[{"location":"params","msg":"id harus berupa angka","path":"id","type":"field","value":"undefined"}],"level":"error","message":"Invalid data","method":"GET","timestamp":"2024-11-02T19:10:00.149Z","url":"/update/undefined"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T19:54:44.501Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:54:44.695Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:54:44.928Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:54:44.989Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:54:45.140Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:54:45.195Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:54:45.294Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:54:45.338Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:54:45.448Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:54:45.505Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:54:45.629Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-02T19:54:45.804Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T19:56:36.899Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:56:37.114Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:56:37.345Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:56:37.580Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:56:37.724Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:56:37.779Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:56:37.874Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:56:37.922Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:56:38.031Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:56:38.084Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:56:38.174Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-02T19:56:38.290Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T19:59:46.519Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:59:46.692Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:59:46.883Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:59:46.932Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:59:47.067Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:59:47.112Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:59:47.196Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:59:47.236Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T19:59:47.326Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:59:47.377Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T19:59:47.461Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-02T20:01:19.908Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T20:01:20.161Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T20:01:20.395Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T20:01:20.453Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T20:01:20.594Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T20:01:20.647Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T20:01:20.740Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T20:01:20.788Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-02T20:01:20.887Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T20:01:20.953Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-02T20:01:21.094Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-02T20:01:21.210Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:01:57.008Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:01:57.228Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:01:57.465Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:01:57.524Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:01:57.687Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:01:57.745Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:01:57.847Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:01:57.902Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:01:58.013Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:01:58.075Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:01:58.182Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:01:58.336Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:01:58.466Z","url":"/update/3"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:05:05.600Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:05:05.779Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:05:05.975Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:05:06.024Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:05:06.159Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:05:06.202Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:05:06.285Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:05:06.324Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:05:06.437Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:05:06.543Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:05:06.665Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:05:06.816Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:05:06.951Z","url":"/update/3"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:06:22.870Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:06:23.050Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:06:23.244Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:06:23.292Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:06:23.428Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:06:23.471Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:06:23.555Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:06:23.596Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:06:23.693Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:06:23.754Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:06:23.860Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:06:23.996Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:06:24.139Z","url":"/update/3"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:06:24.199Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:19:44.403Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:19:44.678Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:19:44.947Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:19:45.037Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:19:45.187Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:19:45.248Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:19:45.343Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:19:45.404Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:19:45.534Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:19:45.607Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:19:45.756Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:19:45.888Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:19:46.046Z","url":"/update/3"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:31:15.124Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:31:15.334Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:31:15.561Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:31:15.620Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:31:15.816Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:31:15.872Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:31:15.978Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:31:16.032Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:31:16.136Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:31:16.200Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:31:16.309Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:31:16.444Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:31:16.593Z","url":"/update/3"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:31:16.654Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:37:18.584Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:37:18.804Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:37:19.039Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:37:19.097Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:37:19.240Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:37:19.292Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:37:19.393Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:37:19.445Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:37:19.550Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:37:19.615Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:37:19.714Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:37:19.883Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:37:20.005Z","url":"/update/3"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:37:20.063Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:37:20.148Z","url":"/update/4"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:37:20.190Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:43:55.098Z","url":"/"}
+{"body":{"_csrf":"qZwaX1hg-9eIPSV4u3SPckxfnD8RCxgFvOeg","endDate":"2024-11-04","startDate":"2024-11-03","tasks":"Test"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:44:07.709Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:44:07.767Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:44:11.593Z","url":"/update/1"}
+{"body":{"_csrf":"s7fpnNyI-kO8YbatA1f-cP9m6mrz-4zRpj-Y","endDate":"2024-11-04","startDate":"2024-11-03","tasks":"Test2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:44:18.710Z","url":"/update/1"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:44:18.755Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:44:21.340Z","url":"/update/1"}
+{"body":{"_csrf":"47XthU7i-OZWZG1xazIAZNaR0-g-5RypQqME","endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:44:27.345Z","url":"/update/1"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:44:27.419Z","url":"/update/1"}
+{"body":{"_csrf":"myS9wOuv-D7BsgfjHrPwX8ak4PpLo7q3NIhA","endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:45:42.847Z","url":"/update/1"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:45:42.936Z","url":"/update/1"}
+{"body":{"_csrf":"NbP0I5PO-uyIE5SY9gYxqGtyd7w56bezNrHk","endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:46:02.577Z","url":"/update/1"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:46:02.662Z","url":"/update/1"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:49:37.838Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:49:38.077Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:49:38.315Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:49:38.378Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:49:38.559Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:49:38.628Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:49:38.744Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:49:38.800Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:49:38.923Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:49:38.997Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:49:39.137Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:49:39.256Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:49:39.421Z","url":"/update/3"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:49:39.492Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:49:39.579Z","url":"/update/4"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:49:39.638Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:49:39.841Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:49:39.891Z","url":"/update/5"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:49:39.981Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:49:40.020Z","url":"/update/6"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-04","tasks":"initial test update"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:49:40.150Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:53:01.836Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:53:02.034Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:02.231Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:53:02.277Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:02.430Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:53:02.492Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:02.601Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:53:02.650Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:02.760Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:53:02.823Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:53:02.936Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:53:03.080Z","url":"/update/2"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:53:03.199Z","url":"/update/3"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:53:03.253Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:03.333Z","url":"/update/4"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:53:03.371Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:03.476Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:53:03.510Z","url":"/update/5"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:03.604Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:53:03.639Z","url":"/update/6"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:53:03.747Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:53:03.781Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:57:34.097Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:57:34.319Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:34.602Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:57:34.657Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:34.799Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:57:34.849Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:34.931Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:57:34.971Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:35.068Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:57:35.120Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:57:35.208Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:57:35.348Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:57:35.439Z","url":"/update/4"}
+{"level":"warn","message":"Todo tidak ditemukan","method":"GET","timestamp":"2024-11-03T01:57:35.440Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:57:35.658Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:57:35.711Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:35.794Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:57:35.831Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:35.926Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:57:35.962Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:36.072Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:57:36.110Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:57:36.208Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:57:36.242Z","url":"/update/8"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T01:59:54.723Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:59:54.931Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:55.142Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:59:55.190Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:55.330Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:59:55.377Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:55.457Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:59:55.496Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:55.586Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:59:55.639Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:59:55.725Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:59:55.844Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:59:55.929Z","url":"/update/4"}
+{"level":"warn","message":"Todo tidak ditemukan","method":"GET","timestamp":"2024-11-03T01:59:55.930Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T01:59:56.148Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T01:59:56.200Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:56.279Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:59:56.315Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:56.408Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:59:56.442Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:56.558Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:59:56.594Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T01:59:56.689Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T01:59:56.721Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:01:42.885Z","url":"/update/1"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:01:46.332Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:01:46.337Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:03:04.425Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:03:04.615Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:04.825Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:03:04.877Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:05.024Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:03:05.081Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:05.184Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:03:05.245Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:05.367Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:03:05.436Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:03:05.540Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:03:05.678Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:03:05.768Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:03:05.769Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:03:05.891Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:03:05.947Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:06.029Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:03:06.068Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:06.175Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:03:06.214Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:06.326Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:03:06.363Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:03:06.454Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:03:06.485Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:03:06.579Z","url":"/update/10"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:06:00.437Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:06:00.665Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:00.887Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:06:00.943Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:01.091Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:06:01.140Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:01.223Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:06:01.262Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:01.351Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:06:01.419Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:06:01.563Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:06:01.692Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:06:01.791Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:06:01.792Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:06:01.928Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:06:01.989Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:02.080Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:06:02.125Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:02.236Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:06:02.279Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:02.440Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:06:02.494Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:06:02.610Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:06:02.651Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:06:02.771Z","url":"/update/10"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:17:06.409Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:17:06.623Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:06.865Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:17:06.926Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:07.118Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:17:07.175Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:07.271Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:17:07.324Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:07.437Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:17:07.504Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:17:07.670Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:17:07.796Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:17:07.884Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:17:07.885Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:17:08.011Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:17:08.098Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:08.219Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:17:08.282Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:08.452Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:17:08.519Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:08.719Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:17:08.767Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:17:08.879Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:17:08.916Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:17:09.026Z","url":"/update/10"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:19:24.494Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:19:24.725Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:24.962Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:19:25.021Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:25.182Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:19:25.236Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:25.336Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:19:25.391Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:25.504Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:19:25.565Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:19:25.664Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:19:25.816Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:19:25.910Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:19:25.912Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:19:26.051Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:19:26.116Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:26.207Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:19:26.254Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:26.367Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:19:26.412Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:26.535Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:19:26.583Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:19:26.699Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:19:26.740Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:19:26.856Z","url":"/update/10"}
+{"body":{"ids":["10"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:19:26.993Z","url":"/delete"}
+{"body":{"ids":["11","12"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:19:27.233Z","url":"/delete"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:22:33.741Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:33.945Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:34.201Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:34.257Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:34.402Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:34.449Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:34.534Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:34.576Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:34.669Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:34.724Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:34.855Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:22:34.965Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:22:35.046Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:22:35.048Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:22:35.161Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:35.212Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:35.294Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:22:35.331Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:35.425Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:22:35.468Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:35.588Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:22:35.624Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:22:35.760Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:22:35.813Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:22:35.948Z","url":"/update/10"}
+{"body":{"ids":["10"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:22:36.066Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:36.097Z","url":"/"}
+{"body":{"ids":["11","12"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:22:36.220Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:22:36.249Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:25:47.664Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:47.848Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:48.047Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:48.098Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:48.234Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:48.281Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:48.360Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:48.400Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:48.491Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:48.541Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:48.628Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:25:48.802Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:25:48.906Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:25:48.907Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:25:49.027Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:49.077Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:49.153Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:25:49.191Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:49.287Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:25:49.327Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:49.430Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:25:49.466Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:25:49.557Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:25:49.589Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:25:49.684Z","url":"/update/10"}
+{"body":{"ids":["10"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:25:49.792Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:49.822Z","url":"/"}
+{"body":{"ids":["11","12"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:25:49.952Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:25:49.981Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:29:19.289Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:19.470Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:19.677Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:19.728Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:19.870Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:19.914Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:19.998Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:20.039Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:20.133Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:20.183Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:20.266Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:29:20.432Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:29:20.518Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:29:20.519Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:29:20.630Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:20.682Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:20.760Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:29:20.802Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:20.899Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:29:20.933Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:21.041Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:29:21.080Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:29:21.180Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:29:21.215Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:29:21.317Z","url":"/update/10"}
+{"body":{"ids":["10"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:29:21.437Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:21.466Z","url":"/"}
+{"body":{"ids":["11","12"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:29:21.602Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:21.632Z","url":"/"}
+{"body":{"ids":"13"},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:29:21.742Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:21.772Z","url":"/"}
+{"body":{"ids":"15"},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:29:21.887Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:29:21.915Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:35:20.818Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:21.006Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:21.207Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:21.256Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:21.401Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:21.448Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:21.534Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:21.577Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:21.673Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:21.730Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:21.833Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:35:22.031Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:35:22.160Z","url":"/update/4"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:35:22.162Z","url":"/update/4"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:35:22.339Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:22.403Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:22.495Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:35:22.540Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:22.648Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:35:22.687Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:22.811Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:35:22.856Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:35:22.958Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:35:22.992Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:35:23.092Z","url":"/update/10"}
+{"body":{"ids":["10"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:35:23.209Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:23.241Z","url":"/"}
+{"body":{"ids":["11","12"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:35:23.380Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:23.412Z","url":"/"}
+{"body":{"ids":"13"},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:35:23.529Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:35:23.560Z","url":"/"}
+{"body":{"ids":["16","17"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:35:23.679Z","url":"/delete"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":"test post todo"},"level":"info","message":"Todo berhasil ditambahkan","method":"POST","timestamp":"2024-11-03T02:38:18.365Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:18.580Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-02","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:18.801Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:18.855Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"","tasks":"cek startDate invalid"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:19.006Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:19.060Z","url":"/"}
+{"body":{"endDate":"","startDate":"2024-11-02","tasks":"cek endDate invalid"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:19.165Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:19.219Z","url":"/"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"error startDate &gt; endDate"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:19.326Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:19.385Z","url":"/"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:19.487Z","url":"/"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:38:19.668Z","url":"/update/2"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:38:19.778Z","url":"/update/103"}
+{"level":"warn","message":"Task not found","method":"GET","timestamp":"2024-11-03T02:38:19.779Z","url":"/update/103"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":"initial test update2"},"level":"info","message":"Todo berhasil diperbaharui","method":"POST","timestamp":"2024-11-03T02:38:19.924Z","url":"/update/4"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:19.993Z","url":"/"}
+{"body":{"endDate":"2024-11-04","startDate":"2024-11-03","tasks":""},"fields_error":[{"location":"body","msg":"tasks is required","path":"tasks","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:20.095Z","url":"/update/5"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:38:20.147Z","url":"/update/5"}
+{"body":{"endDate":"2024-11-04","startDate":"","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"startDate is required","path":"startDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:20.256Z","url":"/update/6"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:38:20.295Z","url":"/update/6"}
+{"body":{"endDate":"","startDate":"2024-11-03","tasks":"initial test update"},"fields_error":[{"location":"body","msg":"endDate is required","path":"endDate","type":"field","value":""}],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:20.408Z","url":"/update/7"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:38:20.446Z","url":"/update/7"}
+{"body":{"endDate":"2024-11-03","startDate":"2024-11-04","tasks":"initial test update"},"fields_error":["startDate lebih besar dari endDate"],"level":"error","message":"Invalid data","method":"POST","timestamp":"2024-11-03T02:38:20.563Z","url":"/update/8"}
+{"level":"info","message":"Update data todo","method":"GET","timestamp":"2024-11-03T02:38:20.604Z","url":"/update/8"}
+{"level":"warn","message":"Task not found","method":"POST","timestamp":"2024-11-03T02:38:20.769Z","url":"/update/10"}
+{"body":{"ids":["10"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:38:20.987Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:21.076Z","url":"/"}
+{"body":{"ids":["11","12"]},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:38:21.393Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:21.467Z","url":"/"}
+{"body":{"ids":"13"},"level":"info","message":"Todo berhasil dihapus","method":"POST","timestamp":"2024-11-03T02:38:21.669Z","url":"/delete"}
+{"level":"info","message":"Ambil data todo","method":"GET","timestamp":"2024-11-03T02:38:21.714Z","url":"/"}
+{"level":"warn","message":"Task tidak ditemukan","method":"POST","timestamp":"2024-11-03T02:38:21.906Z","url":"/delete"}
