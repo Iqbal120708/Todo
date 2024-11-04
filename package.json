@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "connect-flash": "^0.1.1",
+    "connect-session-sequelize": "^7.1.7",
     "cookie-parser": "^1.4.7",
     "csurf": "^1.10.0",
     "dotenv": "^16.4.5",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "dotenv-cli": "^7.4.2",
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
     "husky": "^9.1.6",
@@ -29,12 +31,15 @@
   "description": "Proyek express pertama saya",
   "main": "./src/app.js",
   "scripts": {
-    "db:create:test": "npx sequelize-cli db:create --env test",
-    "db:drop:test": "npx sequelize-cli db:drop --env test",
-    "db:migrate:test": "npx sequelize-cli db:migrate --env test",
+    "db:create:test": "dotenv -e .env.test -- npx sequelize-cli db:create",
+    "db:drop:test": "dotenv -e .env.test -- npx sequelize-cli db:drop",
+    "db:migrate:test": "dotenv -e .env.test -- npx sequelize-cli db:migrate",
     "test": "npm run db:create:test && npm run db:migrate:test && jest || true && npm run db:drop:test",
-    "start": "node ./src/server.js",
-    "dev": "nodemon ./src/server.js"
+    "start": "dotenv -e .env.production -- node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "db:create:prod": "dotenv -e .env.production -- npx sequelize-cli db:create",
+    "db:migrate:prod": "dotenv -e .env.production -- npx sequelize-cli db:migrate",
+    "db:drop:prod": "dotenv -e .env.production -- npx sequelize-cli db:drop"
   },
   "keywords": [
     "todo"

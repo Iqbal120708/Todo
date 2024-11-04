@@ -1,7 +1,6 @@
 const dotenv = require('dotenv');
-
-if (process.env.NODE_ENV !== 'production') {
-    dotenv.config();
+if(process.env.NODE_ENV !== 'production') {
+  dotenv.config();
 }
 
 const express = require('express');
@@ -29,11 +28,17 @@ const helmetConfig = require('./config/helmetConfig')
 app.use(helmetConfig());
 
 const session = require('express-session');
+const Sequelize = require('sequelize');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+const {sequelize} = require('./db/models')
+const sessionStore = new SequelizeStore({
+  db: sequelize,
+});
 app.use(session({
   secret: process.env.SECRET_KEY,
   resave: false,
   saveUninitialized: true,
-  store: new session.MemoryStore()
+  store: sessionStore
 }));
 
 const flash = require('connect-flash');
