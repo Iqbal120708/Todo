@@ -12,3 +12,4 @@ npm-debug.log
 # Linting dan Formatting Configurations
 eslint.config.mjs
 prettier.config.js
+.prettierrc
